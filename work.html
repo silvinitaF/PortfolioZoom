@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--SEO-->
+  <!--keywords-->
+  <meta name="keywords" content="Portfolio de Desarrollo Front-End">
+  <title>Work/Galería de Trabajos</title>
+  <link rel="shortcut icon" href="fotos/favicon.png">
+  <meta name="description" content="Work/Galería de trabajos">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--Iconos-->
+  <script src="https://kit.fontawesome.com/71824f655a.js" crossorigin="anonymous"></script>
+  <!--Estilos Google Font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+  <!--Animaciones-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--Estilos-->
+  <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+  <header>
+    <h1 class="normal centrar animate__backInDown">The<a href="index.html" class="home"><span
+          class="negrita">Zoom</span></a>Project</h1>
+
+    <!--Menú-->
+    <section class="nav-menu">
+      <label for="nav-toggle" class="nav-toggle-label"></label>
+    </section>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+    <ul id="menu-topo">
+      <li class="nav-item"><a href="presentacion.html">About</a></li>
+      <li class="hide">•</li>
+      <li class="nav-item"><a href="skills.html">Skills</a></li>
+      <li class="hide">•</li>
+      <li class="nav-item"><a href="work.html">Work</a></li>
+      <li class="hide">•</li>
+      <li class="nav-item"><a href="contacto.html">Contact</a></li>
+    </ul>
+  </header>
+
+  <h3 class="sub-titulo animate__zoomIn"><i class="fas fa-globe sub-icono"></i> Proyectos</h3>
+
+  <section class="presentacionAbout">
+    <p class="parrafos">Un rápido vistazo a nuestros trabajos en la web. Nuestra primera página de este proyecto, a la
+      que le guardamos cierto cariño, era una presentación en conjunto del proyecto entero, que ahora mismo cuenta con
+      dos páginas independientes. En dicha página, quisimos plasmar todas las herramientas aprendidas. Fue un camino
+      lleno de aprendizajes y satisfacciones. El resultado, fue una página funcional que representaba todo lo que
+      queríamos inicialmente.</p>
+    <p class="parrafos">Más tarde nos dedicamos a elaborar una página (sin fines de lucro) que hiciera un aporte de
+      conciencia social. El proyecto representa una sueño personal. Recopilamos información de lugares especializados y
+      el resultado es un sitio que promueve la crianza adopción responsable de mascotas. También agregamos las líneas de
+      contacto con organizaciones y refugios que se dedican al proteccionismo de animales.</p>
+    <p class="parrafos">Luego estuvimos trabajando en el sitio web de un estudio de pilates que quería ampliar su
+      difusión para dar conocer más sobre sus instalaciones, sus servicios y clases personalizadas.</p>
+    <p class="parrafos">Por último, nos abocamos a la página de una academia de artes marciales con distintas sedes y
+      una variada oferta de clases. Pusimos énfasis en sus instalaciones, algunas recién terminadas y otras totalmente
+      renovadas, y en su distinguido staff de profesores.</p>
+  </section>
+
+  <!--Galería de Trabajos-->
+
+  <section class="demo-work">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="fotos/zp.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="work-c">TheZoomProject</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="fotos/ph.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="work-c">Hogar x Siempre</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="fotos/pe.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="work-c">Esencia Pilates</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="fotos/pk.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="work-c">Academia de Artes Marciales.</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="redes">
+    <button class="boton-redes">
+      <i class="fab fa-instagram"></i>
+      <span class="boton-icono">
+        <span class="boton-boton">
+          <span class="icono-redes"></span>
+          <span class="icono-redes"></span>
+          <span class="icono-redes"></span>
+          <span class="icono-redes"></span>
+        </span>
+      </span>
+    </button>
+    <button class="boton-redes">
+      <i class="fab fa-linkedin-in"></i>
+      <span class="boton-icono">
+        <span class="boton-boton">
+          <span class="icono-redes"></span>
+          <span class="icono-redes"></span>
+          <span class="icono-redes"></span>
+          <span class="icono-redes"></span>
+        </span>
+      </span>
+    </button>
+    <button class="boton-redes">
+      <i class="fab fa-github"></i>
+      <span class="boton-icono">
+        <span class="boton-boton">
+          <span class="icono-redes"></span>
+          <span class="icono-redes"></span>
+          <span class="icono-redes"></span>
+          <span class="icono-redes"></span>
+        </span>
+      </span>
+    </button>
+    <p>-Copyright 2022 By TheZoomProject</p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
