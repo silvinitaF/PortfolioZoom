@@ -43,14 +43,14 @@ a:hover {
 .sub-titulo {
   color: #660066;
   margin: 50px;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 .parrafos {
   color: #666699;
   margin-left: 20px;
   margin-top: 5px;
-  font-size: 2vw;
+  font-size: 3.5vw;
 }
 
 .sub-icono {
@@ -379,7 +379,7 @@ ul#menu-topo li a {
 
 .contacto-p {
   color: #f9feff;
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 
 .boton-c {
@@ -424,7 +424,8 @@ ul#menu-topo li a {
 
 .sub-contacto {
   color: #f9feff;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
+  padding: 7px;
 }
 
 .datos-c {
